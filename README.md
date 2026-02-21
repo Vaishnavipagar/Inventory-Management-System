@@ -59,38 +59,20 @@ Maven
 
 Git & GitHub
 
-
-📂 Project Structure
-inventory-management
-│
-├── src/main/java/com/company/inventory
-│   ├── controller
-│   ├── model
-│   ├── repository
-│   ├── service
-│   └── exception
-│
-├── src/main/resources
-│   ├── templates
-│   │   ├── index.html
-│   │   ├── add-product.html
-│   │   └── update-product.html
-│   ├── static
-│   └── application.properties
-│
-└── pom.xml
-
-
-
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/inventory-management.git
 cd inventory-management
+
+
 2️⃣ Create MySQL Database
 
 Open MySQL and run:
 
 CREATE DATABASE inventory_db;
+
+
 3️⃣ Configure Database
 
 Open file:
@@ -109,6 +91,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 spring.thymeleaf.cache=false
 server.port=8081
+
+
 4️⃣ Run the Project
 
 Using Spring Tool Suite (STS):
@@ -120,6 +104,7 @@ Run As → Spring Boot App
 OR using Maven:
 
 mvn spring-boot:run
+
 
 🌐 Application URL
 
